@@ -143,6 +143,7 @@ input {
   align-items: center;
   min-height: calc(100vh - 78px);
   padding: clamp(54px, 7vw, 98px) 0 72px;
+  margin-bottom: 30px;
 }
 
 .hero-copy h1 {
@@ -219,7 +220,7 @@ input {
 
 .form-note {
   min-height: 22px;
-  margin: 35px 0 0;
+  margin: 40px 0 0;
   color: #5e6c84;
   font-size: 16px;
   line-height: 1.45;
