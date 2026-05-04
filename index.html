@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Atlassian Cloud Compliance Health Check</title>
+    <meta
+      name="description"
+      content="Run a practical Atlassian Cloud governance health check for Confluence and Jira. Find stale content, bad AI inputs, overexposed data, and compliance risk in under 30 minutes."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Atlassian Cloud Compliance Health Check home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 32 32" role="img">
+            <path d="M16 3 5 8v8.6c0 6.1 4.4 10.4 11 12.4 6.6-2 11-6.3 11-12.4V8L16 3Z" />
+            <path d="M10.8 15.8 14.5 19l7-8" />
+          </svg>
+        </span>
+        <span>Atlassian Cloud Compliance Health Check</span>
+      </a>
+      <nav class="nav-links" aria-label="Primary navigation">
+        <a href="#get">What You’ll Get</a>
+        <a href="#why">Why Now</a>
+        <a href="#download">Get App</a>
+      </nav>
+      <a class="header-cta" href="#download">Get the App</a>
+    </header>
+
+    <main id="top">
+      <section class="hero section-shell">
+        <div class="hero-copy">
+          <h1>Your Atlassian Cloud is full of risk. And it’s quietly making your AI worse.</h1>
+          <p class="hero-lede">
+            Most enterprises using Confluence and Jira have no clear view of what content is stale,
+            what data is overexposed, and what should have been archived or deleted years ago.
+          </p>
+          <p class="hero-support">
+            That doesn’t just create compliance risk—it pollutes search, slows teams down, and
+            degrades AI outputs.
+          </p>
+          <form class="capture-form hero-form" data-capture-form>
+            <label for="hero-email">Work email</label>
+            <div class="form-row">
+              <input id="hero-email" name="email" type="email" placeholder="Work email" autocomplete="email" required />
+              <button type="submit">Get the App</button>
+            </div>
+            <p class="form-note" data-form-note>No sales call required. No fluff.</p>
+          </form>
+        </div>
+
+        <div class="hero-visual" aria-label="Governance health check dashboard preview">
+          <div class="dashboard">
+            <div class="dashboard-top">
+              <div>
+                <span class="dash-title">Sample Cloud Governance Score</span>
+                <strong>72%</strong>
+              </div>
+              <span class="status-chip">Needs action</span>
+            </div>
+            <div class="score-grid">
+              <article>
+                <span>Stale content</span>
+                <strong>8,412</strong>
+                <em class="risk-high">High</em>
+              </article>
+              <article>
+                <span>Overexposed spaces</span>
+                <strong>146</strong>
+                <em class="risk-med">Review</em>
+              </article>
+              <article>
+                <span>Orphaned pages</span>
+                <strong>2,087</strong>
+                <em class="risk-med">Review</em>
+              </article>
+            </div>
+            <div class="risk-panel">
+              <div class="panel-heading">
+                <span>AI readiness signals</span>
+                <strong>43% noise reduction available</strong>
+              </div>
+              <div class="signal-bars">
+                <span style="--bar: 82%"><i></i>Outdated policy pages</span>
+                <span style="--bar: 68%"><i></i>Unowned project spaces</span>
+                <span style="--bar: 51%"><i></i>Public internal docs</span>
+              </div>
+            </div>
+            <div class="action-list">
+              <div>
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m5 12 4 4L19 6" /></svg>
+                <span>Archive 1,290 pages with no recent traffic</span>
+              </div>
+              <div>
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m5 12 4 4L19 6" /></svg>
+                <span>Review 18 spaces with external access</span>
+              </div>
+              <div>
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m5 12 4 4L19 6" /></svg>
+                <span>Export audit-ready lifecycle summary</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-shell get-section" id="get">
+        <div class="section-heading">
+          <h2>What You’ll Get</h2>
+          <p>A practical, no-fluff governance health check designed for Atlassian Cloud.</p>
+        </div>
+        <div class="benefit-list">
+          <article>
+            <span class="benefit-index">01</span>
+            <div>
+              <h3>Instant visibility into hidden risk</h3>
+              <p>
+                Surface stale pages, over-permissioned spaces, and orphaned content across
+                Confluence and Jira—without guesswork.
+              </p>
+            </div>
+          </article>
+          <article>
+            <span class="benefit-index">02</span>
+            <div>
+              <h3>A clear, prioritized action plan</h3>
+              <p>
+                Know exactly what to archive, retain, or defensibly delete—without disrupting active
+                work.
+              </p>
+            </div>
+          </article>
+          <article>
+            <span class="benefit-index">03</span>
+            <div>
+              <h3>Better AI outcomes from cleaner content</h3>
+              <p>
+                Reduce noise and improve relevance so tools like Atlassian Rovo and other AI systems
+                operate on high-quality, current information—not years of stale content.
+              </p>
+            </div>
+          </article>
+          <article>
+            <span class="benefit-index">04</span>
+            <div>
+              <h3>Audit-ready reporting in minutes</h3>
+              <p>
+                Walk into legal, compliance, or leadership reviews with a quantified view of your data
+                lifecycle posture.
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="why-section" id="why">
+        <div class="section-shell why-grid">
+          <div>
+            <h2>Why This Matters Now</h2>
+            <p>
+              Atlassian Cloud makes it easy to create content—and very hard to manage it at scale.
+            </p>
+          </div>
+          <div class="why-stack">
+            <article>
+              <strong>Content sprawl</strong>
+              <span>Every page, project, and attachment becomes another unmanaged signal.</span>
+            </article>
+            <article>
+              <strong>Unclear ownership</strong>
+              <span>Teams move on while stale spaces keep accumulating access and risk.</span>
+            </article>
+            <article>
+              <strong>AI tools trained on outdated or irrelevant data</strong>
+              <span>Left unchecked, low-quality content compounds into low-quality answers.</span>
+            </article>
+            <article>
+              <strong>Increasing compliance exposure</strong>
+              <span>Retention, privacy, and legal review get harder every quarter.</span>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="cta-section section-shell" id="download">
+        <div class="cta-panel">
+          <div class="cta-copy">
+            <h2>Run Your Atlassian Cloud Governance Health Check</h2>
+            <p>Get a clear picture of your risk and a plan to fix it, in under 30 minutes.</p>
+          </div>
+          <form class="capture-form cta-form" data-capture-form>
+            <label for="cta-email">Work email</label>
+            <div class="form-row">
+              <input id="cta-email" name="email" type="email" placeholder="Work email" autocomplete="email" required />
+              <button type="submit">Get the Governance Health Check App</button>
+            </div>
+            <p class="form-note" data-form-note>
+              No sales call required. No fluff. Just a practical system you can use immediately.
+            </p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <script src="capture.js"></script>
+  </body>
+</html>
