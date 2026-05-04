@@ -7,6 +7,7 @@
   --cyan: #19b7e8;
   --green: #22a06b;
   --orange: #f59e0b;
+  --burnt-orange: #c65a1e;
   --red: #e34935;
   --line: #dfe7f2;
   --surface: #ffffff;
@@ -213,9 +214,9 @@ input {
 
 .form-note {
   min-height: 22px;
-  margin: 25px 0 0;
+  margin: 35px 0 0;
   color: #5e6c84;
-  font-size: 15px;
+  font-size: 16px;
   line-height: 1.45;
   font-weight: 700;
 }
@@ -288,9 +289,10 @@ input {
 
 .dashboard-top strong {
   display: block;
-  margin-top: 8px;
+  margin-top: 10px;
   font-size: clamp(44px, 5vw, 64px);
   line-height: 0.9;
+  color: var(--burnt-orange);
 }
 
 .status-chip {
@@ -660,7 +662,7 @@ input {
   }
 
   .hero-copy h1 {
-    font-size: clamp(38px, 12vw, 54px);
+    font-size: 4em;
   }
 
   .hero-lede,
