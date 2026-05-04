@@ -47,7 +47,7 @@ input {
   z-index: 20;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-start;
   gap: 24px;
   min-height: 78px;
   padding: 16px clamp(20px, 5vw, 72px);
@@ -60,6 +60,7 @@ input {
   display: inline-flex;
   align-items: center;
   gap: 12px;
+  margin-right: auto;
   max-width: 380px;
   font-size: 15px;
   font-weight: 800;
@@ -147,10 +148,14 @@ input {
 .hero-copy h1 {
   max-width: 690px;
   margin: 0;
-  font-size: clamp(44px, 6vw, 76px);
+  font-size: 4em;
   line-height: 0.97;
   font-weight: 800;
   letter-spacing: 0;
+}
+
+.h1-blue {
+  color: var(--blue);
 }
 
 .hero-lede,
