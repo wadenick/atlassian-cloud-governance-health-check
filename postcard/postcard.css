@@ -105,17 +105,18 @@ p {
 
 h1 {
   max-width: 3.15in;
-  font-size: 0.39in;
+  font-size: 0.37in;
   line-height: 0.92;
   font-weight: 900;
+  margin: 0 0 25px 0;
 }
 
 .front-punch {
-  margin-top: 0.07in;
   color: var(--blue);
   font-size: 0.23in;
   line-height: 1.02;
   font-weight: 900;
+  margin: 0 0 20px 0;
 }
 
 .front-copy > p:last-child {
@@ -154,6 +155,7 @@ h1 {
   font-size: 0.39in;
   line-height: 0.9;
   font-weight: 900;
+  padding: 10px 0 0 0; 
 }
 
 .risk-row {
@@ -302,8 +304,8 @@ h3 {
   gap: 0.045in;
   justify-items: center;
   margin-top: 0.18in;
-  min-height: 1.22in;
-  padding: 0.09in 0.1in;
+  min-height: 0.92in;
+  padding: 0.07in 0.1in;
   color: var(--ink);
   background: #fff;
   border-radius: 0.07in;
